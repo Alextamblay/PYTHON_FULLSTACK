@@ -1,11 +1,11 @@
 num1 = 42 #variable declaracion
 num2 = 2.3 #variable declaracion
 boolean = True #boolean
-string = 'Hello World' #
-pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] #
-person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #
-fruit = ('blueberry', 'strawberry', 'banana') #
-print(type(fruit)) #
+string = 'Hello World' #Strings
+pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] #variable declaration, string
+person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #variable declaration, string
+fruit = ('blueberry', 'strawberry', 'banana') #variable declaration, string
+print(type(fruit)) #type check
 print(pizza_toppings[1]) #
 pizza_toppings.append('Mushrooms') #
 print(person['name']) #
