@@ -1,17 +1,17 @@
 num1 = 42 #variable declaracion
-num2 = 2.3
-boolean = True
-string = 'Hello World'
-pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
-person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
-fruit = ('blueberry', 'strawberry', 'banana')
-print(type(fruit))
-print(pizza_toppings[1])
-pizza_toppings.append('Mushrooms')
-print(person['name'])
-person['name'] = 'George'
-person['eye_color'] = 'blue'
-print(fruit[2])
+num2 = 2.3 #variable declaracion
+boolean = True #boolean
+string = 'Hello World' #
+pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] #
+person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #
+fruit = ('blueberry', 'strawberry', 'banana') #
+print(type(fruit)) #
+print(pizza_toppings[1]) #
+pizza_toppings.append('Mushrooms') #
+print(person['name']) #
+person['name'] = 'George' #
+person['eye_color'] = 'blue' #
+print(fruit[2]) #
 
 if num1 > 45:
     print("It's greater")
@@ -66,8 +66,8 @@ def print_hello_x_or_ten_times(x = 10):
     for num in range(x):
         print('Hello')
 
-print_hello_x_or_ten_times()
-print_hello_x_or_ten_times(4)
+print_hello_x_or_ten_times()#
+print_hello_x_or_ten_times(4)#
 
 
 """
