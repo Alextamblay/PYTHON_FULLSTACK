@@ -39,9 +39,9 @@ while(x < 5):
 pizza_toppings.pop() #elimina un valor
 pizza_toppings.pop(1) #elimina un valor de una posicion de un arreglo
 
-print(person)
-person.pop('eye_color')
-print(person) 
+print(person)#imprime person
+person.pop('eye_color')# elimina un valor de arreglo
+print(person) #vuelve a imprimir person
 
 for topping in pizza_toppings:
     if topping == 'Pepperoni':
