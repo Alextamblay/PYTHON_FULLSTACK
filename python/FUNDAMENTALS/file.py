@@ -1,17 +1,17 @@
 num1 = 42 #variable declaracion
-num2 = 2.3 #variable declaracion
+num2 = 2.3 #decimal
 boolean = True #boolean
-string = 'Hello World' #Strings
-pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] #variable declaration, string
-person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #variable declaration, string
-fruit = ('blueberry', 'strawberry', 'banana') #variable declaration, string
-print(type(fruit)) #type check
-print(pizza_toppings[1]) #
-pizza_toppings.append('Mushrooms') #
-print(person['name']) #
-person['name'] = 'George' #
-person['eye_color'] = 'blue' #
-print(fruit[2]) #
+string = 'Hello World' #cadenas
+pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] #arreglo de tipo lista
+person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #diccionario
+fruit = ('blueberry', 'strawberry', 'banana') #tupla
+print(type(fruit)) #print de var tipo tupla
+print(pizza_toppings[1]) #print de var tipo arreglo
+pizza_toppings.append('Mushrooms') #nos permite agregar
+print(person['name']) #selecciona el contenido de la var name 
+person['name'] = 'George' #modifica
+person['eye_color'] = 'blue' #agregar un valor al diccionario
+print(fruit[2]) #vamos a imprimir l a2 posicion de la tupla
 
 if num1 > 45:
     print("It's greater")
@@ -36,12 +36,12 @@ while(x < 5):
     print(x)
     x += 1
 
-pizza_toppings.pop()
-pizza_toppings.pop(1)
+pizza_toppings.pop() #elimina un valor
+pizza_toppings.pop(1) #elimina un valor de una posicion de un arreglo
 
 print(person)
 person.pop('eye_color')
-print(person)
+print(person) 
 
 for topping in pizza_toppings:
     if topping == 'Pepperoni':
