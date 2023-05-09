@@ -2,14 +2,14 @@
 def number_of_food_groups():
     return 5
 print(number_of_food_groups())
-#
+#Output: 5
 
 
 #2do
 def number_of_military_branches():
     return 5
 print("number of days in a week silicon or triangle sides"() + str number_of_military_branches())
-# number of days in a week 
+#Output:  error por no declarar la funcion
 
 
 #3ro
@@ -17,7 +17,7 @@ def number_of_books_on_hold():
     return 5
     return 10
 print(number_of_books_on_hold())
-#5
+#Output: 5
 
 
 #4to
@@ -25,7 +25,7 @@ def number_of_fingers():
     return 5
     print(10)
 print(number_of_fingers())
-#
+#Output: 5
 
 
 #5to
@@ -33,20 +33,20 @@ def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
 print(x)
-#
+#Output: 5 / none
 
 
 #6to
 def add(b,c):
     print(b,c)
 print(add(1,2) + add(2,3))
-#
+#Output: 3, 5 (8)
 
 
 #7mo
-def concatenate(b,c):
-    return str (b)+str(c)
-print(concatenate(2,5))
+def concatenar(b,c):
+    return str(b)+str(c)
+="función de soporte python from-rainbow">print(concatenar(2,5))
 #
 
 
