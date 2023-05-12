@@ -45,9 +45,6 @@ print(add(1,2) + add(2,3))
 
 #7mo
 def concatenar(b,c):
-    return str(b)+str(c)
-="función de soporte python from-rainbow">print(concatenar(2,5))
-#
 
 
 #8vo
