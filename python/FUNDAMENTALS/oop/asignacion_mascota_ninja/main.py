@@ -1,4 +1,4 @@
-'''import ninja
+import ninja
 import mascota
 
 Alexandra = ninja('Alexandra','Tamblay', 100, 100, 'charlotte')
@@ -14,11 +14,6 @@ my_pet_food = ['Pizza','Burger']
 
 
 
-
-
-adrien.feed();
-adrien.feed();
-adrien.feed();'''
 name = input('¿Cuál es el nombre de la mascota? ')
 tipo = input('¿Cuál es el tipo de mascota? ')
 golosina = input('¿Cuál es la golosina de la mascota? ')
