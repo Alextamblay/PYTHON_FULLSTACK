@@ -1,7 +1,6 @@
 class CuentaBancaria:
-# ¡No olvides agregar algunos valores predeterminados para estos parámetros!
     def __init__(self, tasa_interés, balance): 
-    # tu código aquí (recuerda, los atributos de instancia van aquí)
+        self.tasa_interés = tasa_interés
     # no te preocupes por la información del usuario aquí; pronto involucraremos la clase de usuario
         self.name = "name"
         self.amount = 0
