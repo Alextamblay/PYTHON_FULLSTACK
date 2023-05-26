@@ -7,16 +7,16 @@ class mascota():
         self.energia = 100
         self.noise = noise
 
-    def dormir():
+    def dormir(self):
         self.energy += 25
         return self
     
-    def comer():
+    def comer(self):
         self.energy += 5
         self.health += 10
         return self
     
-    def jugar():
+    def jugar(self):
         self.health += 5
         self.energy -= 15
         return self
