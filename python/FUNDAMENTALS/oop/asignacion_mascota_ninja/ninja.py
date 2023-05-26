@@ -1,5 +1,4 @@
-from mascota import mascota
-class ninja():
+class Ninja():
     def __init__(self, nombre, apellido, premios, comida_mascota, mascota):
         self.nombre = nombre
         self.apellido = apellido
@@ -7,6 +6,7 @@ class ninja():
         self.premios = premios
         self.comida_mascota = comida_mascota 
         self.mascota = mascota
+
     def caminar (self):
         self.mascota.jugar()
         return self
@@ -14,12 +14,11 @@ class ninja():
     def alimentar (self):
         if len(self.comida_mascota) > 0:
             comida = self.comida_mascota.pop()
-            print(f"Feeding {self.comida_mascota} {comida}!")
+            print(f"Alimentar {self.comida_mascota} {comida}!")
             self.mascota.comer()
         else:
-            print("Oh no!!! you need more pet food!")
+            print("Oh no!!! necesitas mas comida!")
         return self
 
-        pass
-    def bañar (self):
-        self.mascota.noise()
+    def bañar(self):
+        self.mascota.ruido()

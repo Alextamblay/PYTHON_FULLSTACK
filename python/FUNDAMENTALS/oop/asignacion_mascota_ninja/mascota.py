@@ -1,25 +1,31 @@
-class mascota():
-    def __init__(self, name, tipo, golosina, noise):
+class Mascota():
+    def __init__(self, name, tipo, golosina):
         self.name = name
         self.tipo = tipo
         self.golosina = golosina
         self.salud = 100
         self.energia = 100
-        self.noise = noise
 
     def dormir(self):
-        self.energy += 25
+        self.energia += 25
         return self
     
     def comer(self):
-        self.energy += 5
-        self.health += 10
+        self.energia += 5
+        self.salud += 10
         return self
     
     def jugar(self):
-        self.health += 5
-        self.energy -= 15
+        self.salud += 5
+        self.energia -= 15
         return self
 
-    def ruido():
-        pass
+    def ruido(self):
+        print(self.ruido)
+
+    def Mostrar_energia(self):
+        print(f"La energia de Charlotte es: {self.energia}")
+        return self
+    def Mostrar_salud(self):
+        print (f"La salud de Charlotte es: {self.salud}")
+        return self
