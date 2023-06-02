@@ -19,6 +19,7 @@ estudiantes[0]['last_name'] = 'Bryant'
 directorio_deportes['fútbol'][0] = 'Andrés'
 
 # Cambia el valor 20 en z a 30
+
 z[0]['y'] = 30
 
 # Imprime los resultados después de los cambios
