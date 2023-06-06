@@ -3,40 +3,43 @@ from tienda import Tienda
 from producto import Producto
 
 def menu ():  
-        print("---Tienda---")
-        print("1.")
-        print("2.")
-        print("3.")
-        print("4.Listar Registros")
-        print("5.")
-        
+        print(" ________Menú Tienda________")
+        print("|1.Registran Nuevo producto |")
+        print("|2.Registrar Venta producto |")
+        print("|3.Listar Productos         |")
+        print("|4.Salir                    |")
+        print("|___________________________|")
 def main():
+    tienda = Tienda("tiendita kitty")
 
     while True:
-
-
+        menu()
         opcion = int(input("Seleccione una opción: "))
-        print(type(opcion))
-        if opcion == 1:
-            nombre = input("Ingrese el nombre del usuario: ")
-            sistema_asistencia.agregar_usuario(nombre)
-            print("Usuario agregado exitosamente.")
-        elif opcion == 2:
-            nombre = input("Ingrese el nombre del usuario: ")
-            sistema_asistencia.registrar_entrada(nombre)
-            print("Registro de entrada realizado.")
-        elif opcion == 3:
-            nombre = input("Ingrese el nombre del usuario: ")
-            sistema_asistencia.registrar_salida(nombre)
-            print("Registro de salida realizado.")
-        elif opcion == 4:
-            sistema_asistencia.listar_registros()
-        elif opcion == 5:
-            break
         
+        if opcion == 1:
+            nombre = (input("ingrese el nombre del producto "))
+            precio = (input("ingrese el precio del producto "))
+            categoria = (input("ingrese la categoria "))
+            nuevo_producto = Producto(nombre, precio, categoria)
+            tienda.agregar_producto(nuevo_producto)
+
+            print("------------------------")
+            print("-----Producto Listo-----")
+            print("------------------------")
+
+
+
+        elif opcion == 2:
+            tienda.vender_producto()
+
+        elif opcion == 3:
+            tienda.listar_productos()
+
+        elif opcion == 4:
+            print("¡Hasta luego!")
+            break
+
 
 if __name__ == "__main__":
     main()
 
-#producto1 = Producto("confort",3000, "higiene")
-#producto1.Print_info()

@@ -14,7 +14,7 @@ class Tienda:
                 print ("Producto no existe" )
         return self
 
-    def listar_productos(self, id): 
+    def listar_productos(self): 
         for x in self.lista:
             x.Print_info()
         return self
