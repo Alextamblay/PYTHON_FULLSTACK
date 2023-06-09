@@ -7,7 +7,8 @@ def menu ():
         print("|1.Registran Nuevo producto |")
         print("|2.Registrar Venta producto |")
         print("|3.Listar Productos         |")
-        print("|4.Salir                    |")
+        print("|4.Modificar producto       |")
+        print("|5.Salir                    |")
         print("|___________________________|")
 def main():
     tienda = Tienda("tiendita kitty")
@@ -27,15 +28,24 @@ def main():
             print("-----Producto Listo-----")
             print("------------------------")
 
-
-
-        elif opcion == 2:
+        if opcion == 2:
             tienda.vender_producto()
 
-        elif opcion == 3:
+        if opcion == 3:
             tienda.listar_productos()
 
-        elif opcion == 4:
+        if opcion == 4:
+            nombre = (input("ingrese el nombre del producto "))
+            precio = (input("ingrese el precio del producto "))
+            categoria = (input("ingrese la categoria "))
+            producto_modificar = Producto(nombre, precio, categoria)
+            tienda.actualizar_lista(producto_modificar)
+
+            print("------------------------")
+            print("-  Producto modificado -")
+            print("------------------------")
+
+        elif opcion == 5:
             print("¡Hasta luego!")
             break
 

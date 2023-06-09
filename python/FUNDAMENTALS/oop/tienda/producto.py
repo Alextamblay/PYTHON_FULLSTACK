@@ -9,8 +9,9 @@ class Producto():
             self.precio += self.precio * cambio_porcentaje / 100
         else:
             self.precio -= self.precio * cambio_porcentaje / 100
+        return self
 
     def Print_info(self):
         print(f"El nombre del producto es {self.name} La categoria es {self.categoria} El precio del producto es {self.precio}")
-
+        return self 
 
