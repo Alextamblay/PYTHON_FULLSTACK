@@ -24,7 +24,7 @@ print(x)  # debería imprimir 5
 
 # ejecutar los métodos unas cuantas veces más y verificar el resultado
 x = md.add(10).add(5, 1).subtract(3, 2).result
-print(x)  # debería imprimir 18
+print(x)  # debería imprimir 16
 
 y = md.add(100, 200, 300).subtract(50, 25).result
-print(y)  # debería imprimir 538
+print(y)  # debería imprimir 541
